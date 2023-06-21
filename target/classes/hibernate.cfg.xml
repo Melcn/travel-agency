@@ -14,9 +14,13 @@
 		<property name="hbm2ddl.auto">create</property>
 		<property name="show_sql">true</property>
 
-		<mapping class="travel_agency.model.ClassName" />
-		<mapping class="travel_agency.model.ClassName" />
-		<mapping class="travel_agency.model.ClassName" />
+		<mapping class="travel_agency.model.Booking" />
+		<mapping class="travel_agency.model.Circuit" />
+		<mapping class="travel_agency.model.Customer" />
+		<mapping class="travel_agency.model.PlaceToVisit" />
+		<mapping class="travel_agency.model.Role" />
+		<mapping class="travel_agency.model.Step" />
+		<mapping class="travel_agency.model.User" />
 
 	</session-factory>
 </hibernate-configuration>
