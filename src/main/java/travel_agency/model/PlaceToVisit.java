@@ -15,9 +15,6 @@ public class PlaceToVisit {
 		return place_name;
 	}
 
-	public void setPlace_name(String place_name) {
-		this.place_name = place_name;
-	}
 
 	public String getCity_toVisit() {
 		return city_toVisit;
